@@ -83,10 +83,10 @@ TEST(Calculator,HardWareStatus_OK){
     MockILatch latch;
     MockIKeypad keypad;
     LockController controller=LockController(&keypad, &latch);
-    EXPECT_CALL(latch, isActive())НУ СОЗДАНЫ ТИП))
+    EXPECT_CALL(latch, isActive())
            .Times(1)
       .WillOnce(Return(1));
-    EXPECT_CALL(keypad, isActive())НУ СОЗДАНЫ ТИП))
+    EXPECT_CALL(keypad, isActive())
            .Times(1)
      .WillOnce(Return(1));
  HardWareStatus Status = controller.hardWareCheck();
