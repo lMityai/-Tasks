@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -91,16 +92,16 @@ int main()
     }
     ofstream file("Файл вывода.txt");
     file << "Общее число выживших:" << sum << endl;
-    file << "Число выживших из 1 класса:" << sum1 << endl;
-    file << "Число выживших из 2 класса:" << sum2 << endl;
-    file << "Число выживших из 3 класса:" << sum3 << endl;
-    file << "Количество выживших женщин:" << women << endl;
-    file << "Количество выживших мужчин:" << men << endl;
+    file << "1 класс:" << sum1 << endl;
+    file << "2 класс:" << sum2 << endl;
+    file << "3 класс:" << sum3 << endl;
+    file << "Женщин:" << women << endl;
+    file << "Мужчин:" << men << endl;
     file << "Средний возраст пассажира:" << age / vec_str.size() << endl;
     file << "Средний женский возраст:" << num_women / all_women << endl;
     file << "Средний мужской возраст:" << num_men / all_men << endl;
     file << "Штат в котором село больше всего пассажиров:" << strin << endl;
-    file << "Cписок идентификаторов несовершеннолетних (младше 18) пассажиров:";
+    file << "Идентификатор несовершеннолетних:";
     for (int i = 0; i < ves.size(); i++) {
         if (i == ves.size() - 1) {
             file << ves[i] << ".";
