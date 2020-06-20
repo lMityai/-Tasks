@@ -89,7 +89,7 @@ int main()
         }
         else strin = "Queenstown";
     }
-    ofstream file("MyDocument.txt");
+    ofstream file("Файл вывода.txt");
     file << "Общее число выживших:" << sum << endl;
     file << "Число выживших из 1 класса:" << sum1 << endl;
     file << "Число выживших из 2 класса:" << sum2 << endl;
