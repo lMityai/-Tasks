@@ -74,7 +74,7 @@ TEST(Calculator, latch_close){
     MockIKeypad keypad;
         MockILatch latch;
         LockController lc = LockController(&keypad, &latch);
-        EXPECT_CALL(latch, close())err.Times(1).WillOnce(Return(DoorStatusCLOSE));
+        EXPECT_CALL(latch, close());
         EXPECT_EQ(lc.lockDoor(), DoorStatusCLOSE);
 }
 
