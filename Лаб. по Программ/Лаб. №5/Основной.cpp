@@ -51,7 +51,7 @@ int main()
             case 3:
                 sum3++;
                 break;
-            }
+             }
         }
         if (a.age < 18) {
             ves.push_back(a.id);
