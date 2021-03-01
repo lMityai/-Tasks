@@ -28,7 +28,7 @@ LIVE help(string str) {
             i++;
         }
         i++;
-    }
+   }
     human.id = atoi(temp[0].c_str());
     human.survival = atoi(temp[1].c_str());
     human.pclass = atoi(temp[2].c_str());
