@@ -1,4 +1,4 @@
-#ifndef HEADER_H //от повторного 
+#ifndef HEADER_H // от повторного 
 #define HEADER_H
 enum Status {
 	PLAY,
