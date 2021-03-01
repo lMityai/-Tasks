@@ -6,7 +6,7 @@ int main() {
 	 int hwoper;
 	Game game
 	setlocale(LC_ALL, "rus");
-	srand((unsigned)time(NULL));//чтоб первый всегда не ходил
+	srand((unsigned)time(NULL));// чтобы первый всегда не ходил
 	hwoper = rand() % 2;
 
 	if (hwoper==1) {
