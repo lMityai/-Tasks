@@ -156,7 +156,7 @@ bool updateGame(Game* game) {
 			return konec;
 		}
 	}
-	for (int j = 0; j < 3; ++j) {//ытолбы
+	for (int j = 0; j < 3; ++j) {//столбы
 		str = 0;
 		for (int i = 0; i < 3; ++i) {
 			if (game->bord[i][j] == xoro) str++;
