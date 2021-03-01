@@ -177,7 +177,7 @@ TEST(Calculator,old_pass_true){
 TEST(Calculator, new_pass_true){
     MockILatch latch;
     MockIKeypad keypad;
-    LockController controller=LockController(&keypad, &latch);
+    LockController controller=LockController(&keypad, &latch); 
     bool CheckPassword;
     PasswordResponse del_Pass{PasswordResponseStatusOK,0000};
     PasswordResponse old_Pass{PasswordResponseStatusOK,9999};
